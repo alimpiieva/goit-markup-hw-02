@@ -1,20 +1,233 @@
+:root {
+--main-text-color: #2E2F42;
+--secondary-text-color: #434455;
+--pseudoclass-clr: #404BBF;
+--logo-btn-clr: #4D5AE5;
+}
+
+/* ----- сброс фильтров ----- */
+
 .list {
-    list-style: none;
+list-style: none;
 }
 .link {
-    text-decoration: none;
-}
-.logo {
-font-family: 'Raleway';
+text-decoration: none;
+color: inherit;
 font-style: normal;
+}
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-weight: 400;
+color: var(--main-text-color);
+background-color:#FFFFFF;
+} 
+
+/* -------- HEADER ------- */
+
+.header-logo {
+font-family: 'Raleway', sans-serif; 
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color: var(--logo-btn-clr);
 }
 
 .span-header {
-    color: #2E2F42;
+color: var(--main-text-color);
+}
+
+.menu-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color:var(--pseudoclass-clr);
+}
+.menu-link:active {
+    color: var(--pseudoclass-clr);
+}
+
+.contact-info-item {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+.contact-link:active {
+    color:var(--pseudoclass-clr);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--pseudoclass-clr);
+}
+
+/* -------- SECTION 1 -------- */
+
+.product {
+background-color: var(--main-text-color);
+}
+
+.product-offer {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+width: 494px;
+}
+
+.modal-btn{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--logo-btn-clr);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor:pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus{
+    background-color: var(--pseudoclass-clr);
+}
+
+/* -----------SECTION 2--------- */
+
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+}
+
+.value-header{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.value-text{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+/* ---------- SECTION 3 -------- */
+
+.activities-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-text-color);
+}
+
+/* ---------- SECTION 4 -------- */
+
+.team{
+background-color: #F4F4FD;
+}
+
+.team-header{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--main-text-color);
+}
+
+.team-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
+.team-item{
+    background-color: #FFFFFF;
+}
+.team-text{
+    color: #434455;
+}
+
+/* --------- FOOTER ------- */
+
+.footer{
+background-color: var(--main-text-color);
+}
+.footer-logo{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--logo-btn-clr);
+}
+
+.span-footer{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    color: #E7E9FC;
+}
+
+.filter-btn{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--pseudoclass-clr);
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+cursor:pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+color: #FFFFFF;
+background: var(--pseudoclass-clr);
+}
+
+.portfolio-name{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--main-text-color);
+}
+
+.portfolio-text{
+    color: var(--secondary-text-color);
 }
