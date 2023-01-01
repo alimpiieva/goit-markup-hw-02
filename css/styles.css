@@ -82,7 +82,7 @@ background-color: var(--main-text-color);
 }
 
 .product-offer {
-font-weight: var(--header-font-weight);
+font-weight: var(--main-header-font-weight);
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
@@ -141,7 +141,7 @@ color: var(--secondary-text-color);
 /* ---------- SECTION 3 -------- */
 
 .activities-header{
-font-weight: var(--header-font-weight);
+font-weight: var(--main-header-font-weight);
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
@@ -156,7 +156,7 @@ background-color: #F4F4FD;
 }
 
 .team-header{
-font-weight: var(--header-font-weight);
+font-weight: var(--main-header-font-weight);
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
